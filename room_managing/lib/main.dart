@@ -9,5 +9,6 @@ void main() {
   final admissionService = Admissionservice(roomRepository);
   final console = RoomConsole(admissionservice: admissionService);
 
+  print("a");
   console.start();
 }
