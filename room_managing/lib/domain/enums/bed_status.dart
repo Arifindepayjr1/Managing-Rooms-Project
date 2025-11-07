@@ -1,0 +1,4 @@
+enum BedStatus {
+  available,
+  occupied,
+}
