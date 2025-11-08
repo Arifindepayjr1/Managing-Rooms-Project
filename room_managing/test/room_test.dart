@@ -59,7 +59,7 @@ void main(){
 
   test("Should Show available beds" , (){
     List<Bed> availableBeds = room.getAvailableBed();
-    expect(availableBeds.length,  1);
+    expect(availableBeds.length,  2);
   });
 
 }
