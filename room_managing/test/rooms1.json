@@ -1,1 +1,200 @@
-[{"id":"R001","roomType":"general","beds":[{"id":"B1","status":"occupied","patient":{"id":"X8QzjEIw","name":"Arifin","age":20,"gender":"male","condition":"Cool Hearth","admittedDate":"2025-11-07T09:59:59.573961","discharged":false}},{"id":"B2","status":"occupied","patient":{"id":"HbLanZSv","name":"John Doe","age":30,"gender":"male","condition":"Dry Cough","admittedDate":"2025-11-07T15:20:03.329650","discharged":false}},{"id":"B3","status":"available","patient":null},{"id":"B4","status":"available","patient":null},{"id":"B5","status":"available","patient":null},{"id":"B6","status":"available","patient":null},{"id":"B7","status":"available","patient":null},{"id":"B8","status":"available","patient":null},{"id":"B9","status":"available","patient":null},{"id":"B10","status":"available","patient":null},{"id":"B11","status":"available","patient":null},{"id":"B12","status":"available","patient":null},{"id":"B13","status":"available","patient":null},{"id":"B14","status":"available","patient":null},{"id":"B15","status":"available","patient":null},{"id":"B16","status":"available","patient":null},{"id":"B17","status":"available","patient":null},{"id":"B18","status":"available","patient":null},{"id":"B19","status":"available","patient":null},{"id":"B20","status":"available","patient":null}]},{"id":"R002","roomType":"icu","beds":[{"id":"B1","status":"occupied","patient":{"id":"GLaG3Zmr","name":"John Doe","age":30,"gender":"male","condition":"Dry Cough","admittedDate":"2025-11-07T15:21:59.378339","discharged":false}},{"id":"B2","status":"occupied","patient":{"id":"Rol8uGWf","name":"John Doe","age":30,"gender":"male","condition":"Dry Cough","admittedDate":"2025-11-07T15:25:43.220238","discharged":false}}]},{"id":"R003","roomType":"icu","beds":[{"id":"B1","status":"available","patient":null},{"id":"B2","status":"available","patient":null}]},{"id":"R004","roomType":"icu","beds":[{"id":"B1","status":"available","patient":null},{"id":"B2","status":"available","patient":null}]},{"id":"R005","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R006","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R007","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R008","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R009","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R010","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R011","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R012","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R013","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R014","roomType":"private","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R015","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R016","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R017","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R018","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R019","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R020","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R021","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R022","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R023","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]},{"id":"R024","roomType":"isolation","beds":[{"id":"B1","status":"available","patient":null}]}]
+[
+  {
+    "id": "R001",
+    "roomType": "general",
+    "beds": [
+      {
+        "id": "B1",
+        "status": "occupied",
+        "patient": {
+          "id": "X8QzjEIw",
+          "name": "Arifin",
+          "age": 20,
+          "gender": "male",
+          "condition": "Cool Hearth",
+          "admittedDate": "2025-11-07T09:59:59.573961",
+          "discharged": false
+        }
+      },
+      {
+        "id": "B2",
+        "status": "occupied",
+        "patient": {
+          "id": "HbLanZSv",
+          "name": "John Doe",
+          "age": 30,
+          "gender": "male",
+          "condition": "Dry Cough",
+          "admittedDate": "2025-11-07T15:20:03.329650",
+          "discharged": false
+        }
+      },
+      { "id": "B3", "status": "available", "patient": null },
+      { "id": "B4", "status": "available", "patient": null },
+      { "id": "B5", "status": "available", "patient": null },
+      { "id": "B6", "status": "available", "patient": null },
+      { "id": "B7", "status": "available", "patient": null },
+      { "id": "B8", "status": "available", "patient": null },
+      { "id": "B9", "status": "available", "patient": null },
+      { "id": "B10", "status": "available", "patient": null },
+      { "id": "B11", "status": "available", "patient": null },
+      { "id": "B12", "status": "available", "patient": null },
+      { "id": "B13", "status": "available", "patient": null },
+      { "id": "B14", "status": "available", "patient": null },
+      { "id": "B15", "status": "available", "patient": null },
+      { "id": "B16", "status": "available", "patient": null },
+      { "id": "B17", "status": "available", "patient": null },
+      { "id": "B18", "status": "available", "patient": null },
+      { "id": "B19", "status": "available", "patient": null },
+      { "id": "B20", "status": "available", "patient": null }
+    ]
+  },
+  {
+    "id": "R002",
+    "roomType": "icu",
+    "beds": [
+      {
+        "id": "B1",
+        "status": "occupied",
+        "patient": {
+          "id": "GLaG3Zmr",
+          "name": "John Doe",
+          "age": 30,
+          "gender": "male",
+          "condition": "Dry Cough",
+          "admittedDate": "2025-11-07T15:21:59.378339",
+          "discharged": false
+        }
+      },
+      {
+        "id": "B2",
+        "status": "occupied",
+        "patient": {
+          "id": "Rol8uGWf",
+          "name": "John Doe",
+          "age": 30,
+          "gender": "male",
+          "condition": "Dry Cough",
+          "admittedDate": "2025-11-07T15:25:43.220238",
+          "discharged": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "R003",
+    "roomType": "icu",
+    "beds": [
+      { "id": "B1", "status": "available", "patient": null },
+      { "id": "B2", "status": "available", "patient": null }
+    ]
+  },
+  {
+    "id": "R004",
+    "roomType": "icu",
+    "beds": [
+      { "id": "B1", "status": "available", "patient": null },
+      { "id": "B2", "status": "available", "patient": null }
+    ]
+  },
+  {
+    "id": "R005",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R006",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R007",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R008",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R009",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R010",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R011",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R012",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R013",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R014",
+    "roomType": "private",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R015",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R016",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R017",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R018",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R019",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R020",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R021",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R022",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R023",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  },
+  {
+    "id": "R024",
+    "roomType": "isolation",
+    "beds": [{ "id": "B1", "status": "available", "patient": null }]
+  }
+]
